@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "991681556862",
+    "firebase_url": "https://sambag2-8663a-default-rtdb.firebaseio.com",
+    "project_id": "sambag2-8663a",
+    "storage_bucket": "sambag2-8663a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991681556862:android:91d9972006d8fe9d88432f",
+        "android_client_info": {
+          "package_name": "com.example.emergency"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADDf7PUXROHfp7trT4-JCeA1VI-MOBIlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991681556862:android:1faa799715773bbf88432f",
+        "android_client_info": {
+          "package_name": "com.example.sambag2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADDf7PUXROHfp7trT4-JCeA1VI-MOBIlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

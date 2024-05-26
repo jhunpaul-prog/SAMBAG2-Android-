@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/emergencybg"
+    tools:context=".EmergencyButton">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="199dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Are you in emergency?"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Press the button below, help will reach you soon!"
+                android:textSize="15dp"
+                android:textColor="#868686"
+                android:textStyle="bold">
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/reportButton"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/alarm"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/linearbg"
+                android:drawableEnd="@drawable/circleswu"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:scaleType="fitCenter"
+                android:text="Powered by:"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/developer"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/maroonbutton"
+                android:drawableEnd="@drawable/circledev"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:scaleType="fitCenter"
+                android:text="Developers"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
